@@ -5,7 +5,7 @@ module.exports = defineConfig({
     viewportHeight: 360,
     viewportWidth: 640,
     retries: 1,
-    baseUrl: "http://localhost:3000",
+    baseUrl: "http://localhost:3000/",
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
